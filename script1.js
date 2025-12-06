@@ -48,5 +48,5 @@ function saveQuotes() {
   localStorage.setItem("quotes", JSON.stringify(quotes));
 }
 
-// Initial render
+
 renderQuotes();
